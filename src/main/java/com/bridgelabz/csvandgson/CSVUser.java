@@ -28,6 +28,11 @@ public class CSVUser {
         this.phoneNo = phoneNo;
         this.country = country;
     }
+
+    public CSVUser() {
+        // Default constructor code
+    }
+
     /**
      * @desc : Method to get the name of CSV user
      * @return : name

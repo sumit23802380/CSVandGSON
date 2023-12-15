@@ -6,6 +6,6 @@ package com.bridgelabz.csvandgson;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello");
-        OpenCSVWriter.writeIntoCSV();
+        OpenCSVAndGsonTester.readFromCSVandWriteToJSON();
     }
 }
